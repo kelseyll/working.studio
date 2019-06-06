@@ -2,7 +2,7 @@
     --bigfont: 42px;
 }
 body {
-    color: #0e0e0e;
+    color: #312e2e;
     line-height: 1.6;
     font-family: SportingGrotesque;
     -webkit-font-smoothing: antialiased;
@@ -171,6 +171,8 @@ nav a:hover {
     width: calc(66.66% - 17.5px);
     font-size: var(--bigfont);
     font-weight: normal;
+    max-width: 700px;
+    padding-right: 70px;
 }
 
 .location h3 a {
@@ -392,9 +394,9 @@ nav a:hover {
 }
 
 .text-center {
-    padding: 140px 0 70px;
+    padding: 140px 0 0;
     text-align: center;
-    max-width: 1050px;
+    max-width: 850px;
     margin: 0 auto;
 }
 @media only screen and (max-width: 980px) {
