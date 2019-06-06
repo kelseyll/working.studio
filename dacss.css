@@ -1,5 +1,5 @@
 :root {
-    --bigfont: 48px;
+    --bigfont: 42px;
 }
 body {
     color: #0e0e0e;
@@ -144,8 +144,8 @@ nav a:hover {
 }
 
 .about p {
-    font-size: 22px;
-    max-width: 500px;
+    font-size: 24px;
+    max-width: 550px;
     position: relative;
 }
 
@@ -196,9 +196,6 @@ nav a:hover {
         width: 100%;
     }
 }
-.history {
-    padding: 70px 0;
-}
 
 .history-img {
     width: calc(66.66% - 17.5px);
@@ -209,7 +206,7 @@ nav a:hover {
     font-size: var(--bigfont);
     font-weight: normal;
     max-width: 1050px;
-    margin: 140px auto 0;
+    margin: 140px auto;
 }
 @media only screen and (max-width: 980px) {
     .history .history-img {
@@ -230,7 +227,11 @@ nav a:hover {
 }
 
 .text {
-    padding: 70px 0;
+    padding: 140px 0;
+}
+
+.text:nth-child(2n) {
+    padding: 0 0;
 }
 
 .images {
@@ -335,6 +336,8 @@ nav a:hover {
     background: #CA9E9E;
 }
 
+
+
 .text-center,
 .text-left h6,
 .pricing-item h6 {
@@ -389,7 +392,7 @@ nav a:hover {
 }
 
 .text-center {
-    padding: 140px 0;
+    padding: 140px 0 70px;
     text-align: center;
     max-width: 1050px;
     margin: 0 auto;
