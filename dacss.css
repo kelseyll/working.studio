@@ -24,11 +24,14 @@ img {
 }
 
 .logo svg {
-    fill: #0e0e0e;
     height: 78px;
     width: inherit;
     position: fixed;
     z-index: 2;
+}
+
+.logo svg path {
+    fill: #312e2e;
 }
 
 header {
@@ -121,7 +124,7 @@ nav a:hover {
     position: absolute;
     bottom: calc(350px + 7%);
     width: calc(100% + 70px);
-    z-index: 20;
+    z-index: 1;
     left: -25px;
 }
 
@@ -385,7 +388,12 @@ nav a:hover {
     bottom: 0;
     width: 100%;
     padding: 35px 0;
-    z-index: 10;
+    z-index: 3;
+}
+
+.bottomguy img {
+    width: 64px;
+    height: 156px;
 }
 
 .end {
