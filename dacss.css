@@ -317,7 +317,7 @@ nav a:hover {
     width: calc(50% - 35px);
     position: relative;
     padding: 24px 0;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .pricing-item:after {
