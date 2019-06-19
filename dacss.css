@@ -239,6 +239,10 @@ nav a:hover {
     padding: 0 0;
 }
 
+.small-vertical-padding {
+    padding-bottom: 20px;
+}
+
 .images {
     padding: 70px 0;
 }
@@ -340,8 +344,6 @@ nav a:hover {
 .pricing-item:nth-of-type(2):before {
     background: #CA9E9E;
 }
-
-
 
 .text-center,
 .text-left h6,
