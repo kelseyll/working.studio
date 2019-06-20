@@ -2,7 +2,7 @@
     --bigfont: 42px;
 }
 body {
-    color: #312e2e;
+    color: #000;
     line-height: 1.6;
     font-family: SportingGrotesque;
     -webkit-font-smoothing: antialiased;
@@ -28,10 +28,6 @@ img {
     width: inherit;
     position: fixed;
     z-index: 2;
-}
-
-.logo svg path {
-    fill: #312e2e;
 }
 
 header {
@@ -174,7 +170,7 @@ nav a:hover {
     width: calc(66.66% - 17.5px);
     font-size: var(--bigfont);
     font-weight: normal;
-    max-width: 700px;
+    max-width: 880px;
     padding-right: 70px;
 }
 
