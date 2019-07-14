@@ -143,7 +143,7 @@ nav a:hover {
 }
 
 .about p {
-    font-size: 24px;
+    font-size: 22px;
     max-width: 550px;
     position: relative;
 }
@@ -214,7 +214,7 @@ nav a:hover {
         width: 100%;
     }
     .history h4 {
-        margin-top: 45px;
+        margin: 45px 0;
         padding: 0;
         text-align: left;
     }
@@ -387,10 +387,10 @@ nav a:hover {
     width: 100%;
     padding: 35px 0;
     z-index: 3;
+    pointer-events: none;
 }
 
 .bottomguy img {
-    width: 64px;
     height: 156px;
 }
 
@@ -444,9 +444,6 @@ nav a:hover {
     margin-bottom: 0;
 }
 @media only screen and (max-width: 980px) {
-    .footer {
-        text-align: left;
-    }
     :root {
         --bigfont: 38px;
     }
@@ -484,4 +481,119 @@ nav a:hover {
     display: block;
     margin: 70px auto 50px;
     width: 50px;
+}
+
+@media only screen and (max-width: 520px) { 
+    .images .images-img,
+    .steps-1,
+    .steps-3 {
+        width: calc(50% - 5px);
+    }
+    .steps-3 {
+        padding-top: 40%
+    }
+    .steps-1 .mobile-show {
+        margin-top: 10px;
+    }
+    .logo svg {
+        height: 50px;
+        position: relative;
+    }
+    .location h3 {
+        padding-right: 0;
+    }
+    :root {
+        --bigfont: 22px;
+    }
+    .footer a {
+        font-size: 22px
+    }
+    .bottomguy {
+        padding: 0;
+    }
+    .bottomguy img {
+        height: 120px;
+    }
+    nav a {
+        font-size: 18px;
+    }
+    .container {
+        padding: 20px;
+    }
+    .steps .steps-cta {
+        margin: 0 20px;
+        width: calc(100vw - 40px);  
+    }
+    .steps {
+        padding-top: 45px;
+    }
+    .text-left,
+    .pricing,
+    .images,
+    .text {
+        padding: 45px 0;
+    }
+    .footer {
+        padding: 170px 0;
+    }
+    header {
+        padding-top: 0;
+    }
+    .images-img p {
+        font-size: 13px;
+    }
+    .pricing-item span {
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .text-center, .text-left h6, .pricing-item h6 {
+        padding: 40px 0 20px;
+    }
+    .pricing .pricing-item:first-of-type {
+        margin-bottom: 70px;
+    }
+    .text-left h6 {
+        margin-bottom: 0px !important;
+        padding-bottom: 0 !important;
+    }
+    .pricing {
+        padding: 45px 0 0 0;
+        font-size: var(--bigfont);
+    }
+    .pricing + .text-left {
+        padding-top: 0;
+    }
+    .images + .images {
+        padding-top: 0;
+        margin-top: -75px;
+    }
+    .images + .small-vertical-padding {
+        padding-top: 0;
+        margin-top: -10px;
+        padding-bottom: 0;
+    }
+    .images + .small-vertical-padding .text-img {
+        margin-top: 85px;
+    }
+    .small-vertical-padding + .small-vertical-padding {
+        margin-top: -10px
+    }
+    .history + .images {
+        padding-top: 20px;
+        padding-bottom: 0;
+    }
+    .history + .images .container {
+        padding-top: 0
+    }
+    .steps-cta {
+        font-size: 16px;
+        padding: 20px;
+    }
+    .history h4 {
+        margin-top: 30px;
+    }
+    .text-center {
+        padding-top: 0;
+        margin-top: -60px;
+    }
 }
