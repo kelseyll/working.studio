@@ -2,6 +2,8 @@
     --bigfont: 42px;
 }
 body {
+    max-width: 1440px;
+    margin: 0 auto;
     color: #000;
     line-height: 1.6;
     font-family: SportingGrotesque;
