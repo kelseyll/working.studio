@@ -24,7 +24,7 @@ img {
 }
 
 .logo svg {
-    height: 78px;
+    height: 68px;
     width: inherit;
     position: fixed;
     z-index: 2;
@@ -199,7 +199,7 @@ nav a:hover {
 }
 
 .history-img {
-    width: calc(66.66% - 17.5px);
+    width: 100%;
 }
 
 .history h4 {
@@ -210,9 +210,6 @@ nav a:hover {
     margin: 140px auto;
 }
 @media only screen and (max-width: 980px) {
-    .history .history-img {
-        width: 100%;
-    }
     .history h4 {
         margin: 45px 0;
         padding: 0;
@@ -483,7 +480,7 @@ nav a:hover {
     width: 50px;
 }
 
-@media only screen and (max-width: 520px) { 
+@media only screen and (max-width: 520px) {
     .images .images-img,
     .steps-1,
     .steps-3 {
@@ -522,7 +519,7 @@ nav a:hover {
     }
     .steps .steps-cta {
         margin: 0 20px;
-        width: calc(100vw - 40px);  
+        width: calc(100vw - 40px);
     }
     .steps {
         padding-top: 45px;
