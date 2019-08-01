@@ -10,6 +10,9 @@ body {
     -webkit-font-smoothing: antialiased;
     cursor: -webkit-image-set(url('dot.svg') 1x, url('dot2.svg') 2x), auto;
 }
+a {
+    color: #000;
+}
 a:hover {
     cursor: -webkit-image-set(url('dot.svg') 1x, url('hand2.svg') 2x), auto;
 }
@@ -60,7 +63,16 @@ nav a {
 }
 
 nav a:hover {
-    text-decoration: underline
+    text-decoration: underline;
+}
+
+.coming-soon {
+    color: grey;
+}
+
+a.coming-soon:hover {
+    cursor: -webkit-image-set(url('dot.svg') 1x, url('dot2.svg') 2x), auto;
+    text-decoration: none;
 }
 
 .steps {
@@ -177,7 +189,7 @@ nav a:hover {
 }
 
 .location h3 a {
-    text-decoration: underline
+    text-decoration: underline;
 }
 
 .location-img {
