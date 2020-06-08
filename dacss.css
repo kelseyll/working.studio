@@ -504,6 +504,13 @@ a.coming-soon:hover {
     margin-left: 50px;
 }
 
+.conduct-alert {
+    background-color: #F3DEDF;
+    border-radius: 3px;
+    text-align: center;
+    padding: 6px 6px 0 0;
+}
+
 @media only screen and (max-width: 520px) {
     .images .images-img,
     .steps-1,
