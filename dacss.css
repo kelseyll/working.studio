@@ -500,6 +500,10 @@ a.coming-soon:hover {
     max-width: 340px;
 }
 
+.nested-list {
+    margin-left: 50px;
+}
+
 @media only screen and (max-width: 520px) {
     .images .images-img,
     .steps-1,
